@@ -1,0 +1,6 @@
+interval: 20
+examples: 3
+
+report_freq: 1
+
+example_list: [1, 5, 16, 19, 20, 26, 27] 

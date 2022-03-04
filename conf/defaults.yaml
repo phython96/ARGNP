@@ -1,0 +1,5 @@
+defaults:
+    - basic: config
+    - ds: ZINC
+    - optimizer: train_optimizer
+    - visualize: config

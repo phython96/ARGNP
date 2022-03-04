@@ -1,0 +1,18 @@
+task: graph_level
+data: ZINC
+in_dim_V: 28
+in_dim_E: 4
+nb_classes: 1
+batch: 128
+node_dim: 50
+edge_dim: 25
+# inter_channel_V: 256
+# inter_channel_E: 128
+inter_channel_V: 60
+inter_channel_E: 30
+pos_encode: 8
+dropout: 0.0
+load_genotypes: './archs2/test1/expand1.txt'
+
+expand_from: ""
+arch_save: './archs2/debug'

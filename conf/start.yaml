@@ -1,0 +1,7 @@
+gpu: 7
+data: sbms_cluster
+start_node: 2
+repeats: 4
+save: 'archs2/start'
+warmup_dec_epoch: 10
+decision_freq: 5

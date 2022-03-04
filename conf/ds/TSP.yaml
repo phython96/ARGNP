@@ -1,0 +1,16 @@
+task: link_level
+data: TSP
+in_dim_V: 2
+in_dim_E: 1
+nb_classes: 2
+batch: 4
+node_dim: 40
+edge_dim: 30
+inter_channel_V: 80
+inter_channel_E: 60
+pos_encode: 0
+dropout: 0.5
+load_genotypes: './archs/expand/expand1.txt'
+
+expand_from: ""
+arch_save: './archs/expand'

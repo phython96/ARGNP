@@ -1,0 +1,22 @@
+task: graph_level
+data: CIFAR10
+in_dim_V: 5
+in_dim_E: 1
+nb_classes: 10
+batch: 32
+# node_dim: 55
+# edge_dim: 25
+node_dim: 70
+edge_dim: 2
+inter_channel_V: 60
+inter_channel_E: 30
+# node_dim: 50
+# edge_dim: 50
+# inter_channel_V: 256
+# inter_channel_E: 128
+pos_encode: 0
+dropout: 0.5
+load_genotypes: './archs/expand/expand1.txt'
+
+expand_from: ""
+arch_save: './archs/expand'

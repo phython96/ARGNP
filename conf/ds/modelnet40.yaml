@@ -1,0 +1,24 @@
+task: graph_level
+data: modelnet40
+in_dim_V: 3
+in_dim_E: 9
+nb_classes: 40
+batch: 16
+node_dim: 128
+edge_dim: 32
+# node_dim: 55
+# edge_dim: 25
+inter_channel_V: 1024
+inter_channel_E: 256
+# inter_channel_V: 110
+# inter_channel_E: 50
+pos_encode: 0
+dropout: 0.6
+
+num_points: 1024
+k: 9
+
+load_genotypes: './archs/expand/expand1.txt'
+
+expand_from: ""
+arch_save: './archs/expand'

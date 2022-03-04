@@ -1,0 +1,15 @@
+batchnorm_op: True
+edge_feature: True
+nb_mlp_layer: 2
+
+data_clip: 1.0
+nb_workers: 0
+seed: 41
+
+nb_layers: 1
+nb_nodes: 1
+
+portion: 0.5
+
+train_epochs: 400
+search_epochs: 50

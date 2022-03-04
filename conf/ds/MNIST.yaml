@@ -1,0 +1,16 @@
+task: graph_level
+data: MNIST
+in_dim_V: 3
+in_dim_E: 1
+nb_classes: 10
+batch: 64
+node_dim: 50
+edge_dim: 50
+pos_encode: 0
+inter_channel_V: 256
+inter_channel_E: 128
+dropout: 0.5
+load_genotypes: './archs/expand/expand1.txt'
+
+expand_from: ""
+arch_save: './archs/expand'

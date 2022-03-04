@@ -1,0 +1,17 @@
+name: SGD
+lr: 0.025
+lr_min: 0.001
+momentum: 0.9
+weight_decay: 3e-4
+
+unrolled: False
+search_mode: sgas
+# search_mode: darts
+arch_lr: 3e-4
+arch_weight_decay: 1e-3
+
+warmup_dec_epoch: 10
+decision_freq: 5
+
+
+fix: ['V']

@@ -1,0 +1,14 @@
+task: node_level
+data: SBM_PATTERN
+in_dim_V: 3
+in_dim_E: 1
+nb_classes: 2
+batch: 32
+node_dim: 50
+edge_dim: 50
+pos_encode: 20
+dropout: 0.0
+load_genotypes: './archs/expand/expand1.txt'
+
+expand_from: ""
+arch_save: './archs/expand'
