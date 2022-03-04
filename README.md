@@ -50,3 +50,4 @@ Just run the following command.
 ```python
 python utils/plot_genotype.py
 ```
+
