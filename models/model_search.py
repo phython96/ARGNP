@@ -25,7 +25,7 @@ def expand_genotype(src_genotypes):
         src_type_dict = {'V': {}, 'E': {}}
         for type in ['V', 'E']:
             src_type = getattr(src_genotypes[cell_id],type)
-            for Si, Vj, Ek, Op, _ in src_type:
+            for Si, Vj, Ek, Op in src_type:
                 if Si not in src_type_dict[type]:
                     src_type_dict[type][Si] = []
                 src_type_dict[type][Si].append((Vj, Ek, Op))
