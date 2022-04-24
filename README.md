@@ -40,7 +40,7 @@ python start.py gpu=0 repeats=4 data=ZINC save='archs/start'
 ```
 
 ## Training
-We provided scripts for easily training graph neural networks searched by EGNAS.
+We provided scripts for easily training graph neural networks searched by ARGNP.
 ```python
 CUDA_VISIBLE_DEVICES=0 python train.py ds=ZINC  optimizer=train_optimizer ds.load_genotypes='archs2/start/repeat3/ZINC/45/cell_geno.txt'
 ```
