@@ -13,6 +13,8 @@
 ## Environment
 Try the following command for installation. 
 ```sh
+# Install Graphviz
+sudo apt install graphviz
 # Install Python Environment
 conda env create -f environment.yml
 conda activate gnas
