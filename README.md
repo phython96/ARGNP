@@ -13,12 +13,12 @@ Automatic Relation-aware Graph Network Proliferation
 
 ## What's new? 🔥
 
-1. **We devise a novel dual RELATION-AWARE GRAPH SEARCH SPACE that comprises both node and relation learning operations.**
+1. **We devise a RELATION-AWARE GRAPH SEARCH SPACE that comprises both node and relation learning operations.**
 So, the ARGNP can leverage the edge attributes in some datasets, such as ZINC. 
 It significantly improves the graph representative capability. 
 Interestingly, we also observe the performance improvement even if there is no available edge attributes in some datasets. 
 
-2. **We design a NETWORK PROLIFERATION SEARCH PARADIGM (NPSP) to progressively determine the GNN architectures by iteratively performing network division and differentiation.**
+2. **We design a NETWORK PROLIFERATION SEARCH PARADIGM to progressively determine the GNN architectures by iteratively performing network division and differentiation.**
 The network proliferation search paradigm decomposes the training of global supernet into sequential local supernets optimization, which alleviates the interference among child graph neural architectures. It reduces the spatial-time complexity from quadratic to linear and enables the search to thoroughly free from the cell-sharing trick. 
 
 3. **The framework is suitable for solving node-level, edge-level, and graph-level tasks.**
