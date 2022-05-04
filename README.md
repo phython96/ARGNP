@@ -1,5 +1,28 @@
-# Automatic Relation-aware Graph Network Proliferation
----
+<h1 align="center">
+Automatic Relation-aware Graph Network Proliferation 
+</h1>
+
+<div align="center">
+  
+[![](https://img.shields.io/badge/cite-grey?style=plastic&logo=GitBook)]()
+[![](https://img.shields.io/badge/-github-grey?style=plastic&logo=github)](https://github.com/phython96/ARGNP) 
+[![](https://img.shields.io/badge/video-red?style=plastic&logo=airplayvideo)]() 
+[![](https://img.shields.io/badge/project-informational?style=plastic&logo=producthunt)]()
+</div>
+
+
+## What's new? 🔥
+
+1. **We devise a novel dual RELATION-AWARE GRAPH SEARCH SPACE that comprises both node and relation learning operations.**
+So, the ARGNP can leverage the edge attributes in some datasets, such as ZINC. 
+It significantly improves the graph representative capability. 
+Interestingly, we also observe the performance improvement even if there is no available edge attributes in some datasets. 
+
+2. **We design a NETWORK PROLIFERATION SEARCH PARADIGM (NPSP) to progressively determine the GNN architectures by iteratively performing network division and differentiation.**
+The network proliferation search paradigm decomposes the training of global supernet into sequential local supernets optimization, which alleviates the interference among child graph neural architectures. It reduces the spatial-time complexity from quadratic to linear and enables the search to thoroughly free from the cell-sharing trick. 
+
+3. **The framework is suitable for solving node-level, edge-level, and graph-level tasks.**
+
 
 ## Relation-aware Graph Search Space
 <img src="assets/space.png" width="800" />
