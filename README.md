@@ -3,8 +3,8 @@ Automatic Relation-aware Graph Network Proliferation
 </h1>
 
 <div align="center">
-  
-[![](https://img.shields.io/badge/cite-grey?style=plastic&logo=GitBook)]()
+
+[![](https://img.shields.io/badge/paper-pink?style=plastic&logo=GitBook)](https://readpaper.com/paper/651316002870833152)
 [![](https://img.shields.io/badge/-github-grey?style=plastic&logo=github)](https://github.com/phython96/ARGNP) 
 [![](https://img.shields.io/badge/video-red?style=plastic&logo=airplayvideo)]() 
 [![](https://img.shields.io/badge/project-informational?style=plastic&logo=producthunt)]()
