@@ -11,7 +11,15 @@ Automatic Relation-aware Graph Network Proliferation
 </div>
 
 
-## What's new? 🔥
+<div align="center">
+
+[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/automatic-relation-aware-graph-network/link-prediction-on-tsp-hcp-benchmark-set)](https://paperswithcode.com/sota/link-prediction-on-tsp-hcp-benchmark-set?p=automatic-relation-aware-graph-network)
+[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/automatic-relation-aware-graph-network/graph-classification-on-cifar10-100k)](https://paperswithcode.com/sota/graph-classification-on-cifar10-100k?p=automatic-relation-aware-graph-network)
+[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/automatic-relation-aware-graph-network/graph-regression-on-zinc-100k)](https://paperswithcode.com/sota/graph-regression-on-zinc-100k?p=automatic-relation-aware-graph-network)
+[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/automatic-relation-aware-graph-network/node-classification-on-cluster)](https://paperswithcode.com/sota/node-classification-on-cluster?p=automatic-relation-aware-graph-network)
+</div>
+      
+## Contributions 
 
 1. **We devise a RELATION-AWARE GRAPH SEARCH SPACE that comprises both node and relation learning operations.**
 So, the ARGNP can leverage the edge attributes in some datasets, such as ZINC. 
