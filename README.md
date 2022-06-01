@@ -4,7 +4,7 @@ Automatic Relation-aware Graph Network Proliferation
 
 <div align="center">
 
-[![](https://img.shields.io/badge/paper-pink?style=plastic&logo=GitBook)](https://github.com/phython96/ARGNP/blob/master/paper.pdf)
+[![](https://img.shields.io/badge/paper-pink?style=plastic&logo=GitBook)](https://arxiv.org/abs/2205.15678)
 [![](https://img.shields.io/badge/oral-video-red?style=plastic&logo=airplayvideo)](https://0633e92166c0a27ea1aa-ab47878a9e45eb9e2f15be38a59f867e.ssl.cf1.rackcdn.com/PJNEQWFQ-2100498-1663000-Upload-1652882468.mp4) 
 [![](https://img.shields.io/badge/poster-horizontal-informational?style=plastic&logo=Microsoft%20PowerPoint)](https://www.conferenceharvester.com/uploads/harvester/presentations/PJNEQWFQ/PJNEQWFQ-PDF-2100498-1663000-1-PDF(1).pdf)
 [![](https://img.shields.io/badge/poster-vertical-informational?style=plastic&logo=Microsoft%20PowerPoint)](https://0633e92166c0a27ea1aa-ab47878a9e45eb9e2f15be38a59f867e.ssl.cf1.rackcdn.com/PJNEQWFQ-2100498-1663000-Upload-1652884373.pdf)
@@ -76,3 +76,15 @@ Just run the following command.
 python utils/plot_genotype.py
 ```
 
+## Citation
+
+```bib
+@misc{cai2022automatic,
+      title={Automatic Relation-aware Graph Network Proliferation}, 
+      author={Shaofei Cai and Liang Li and Xinzhe Han and Jiebo Luo and Zheng-Jun Zha and Qingming Huang},
+      year={2022},
+      eprint={2205.15678},
+      archivePrefix={arXiv},
+      primaryClass={cs.LG}
+}
+```
