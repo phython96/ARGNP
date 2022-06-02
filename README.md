@@ -87,12 +87,23 @@ python utils/plot_genotype.py
 ## Citation
 
 ```bib
-@misc{cai2022automatic,
-      title={Automatic Relation-aware Graph Network Proliferation}, 
-      author={Shaofei Cai and Liang Li and Xinzhe Han and Jiebo Luo and Zheng-Jun Zha and Qingming Huang},
-      year={2022},
-      eprint={2205.15678},
-      archivePrefix={arXiv},
-      primaryClass={cs.LG}
+@article{DBLP:journals/corr/abs-2205-15678,
+  author    = {Shaofei Cai and
+               Liang Li and
+               Xinzhe Han and
+               Jiebo Luo and
+               Zheng{-}Jun Zha and
+               Qingming Huang},
+  title     = {Automatic Relation-aware Graph Network Proliferation},
+  journal   = {CoRR},
+  volume    = {abs/2205.15678},
+  year      = {2022},
+  url       = {https://doi.org/10.48550/arXiv.2205.15678},
+  doi       = {10.48550/arXiv.2205.15678},
+  eprinttype = {arXiv},
+  eprint    = {2205.15678},
+  timestamp = {Wed, 01 Jun 2022 13:56:25 +0200},
+  biburl    = {https://dblp.org/rec/journals/corr/abs-2205-15678.bib},
+  bibsource = {dblp computer science bibliography, https://dblp.org}
 }
 ```
