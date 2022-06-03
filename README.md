@@ -84,7 +84,7 @@ Just run the following command.
 python utils/plot_genotype.py
 ```
 
-## Citation
+## Cite
 
 ```bib
 @article{DBLP:journals/corr/abs-2205-15678,
