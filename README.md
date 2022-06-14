@@ -87,23 +87,12 @@ python utils/plot_genotype.py
 ## Cite
 
 ```bib
-@article{DBLP:journals/corr/abs-2205-15678,
-  author    = {Shaofei Cai and
-               Liang Li and
-               Xinzhe Han and
-               Jiebo Luo and
-               Zheng{-}Jun Zha and
-               Qingming Huang},
-  title     = {Automatic Relation-aware Graph Network Proliferation},
-  journal   = {CoRR},
-  volume    = {abs/2205.15678},
-  year      = {2022},
-  url       = {https://doi.org/10.48550/arXiv.2205.15678},
-  doi       = {10.48550/arXiv.2205.15678},
-  eprinttype = {arXiv},
-  eprint    = {2205.15678},
-  timestamp = {Wed, 01 Jun 2022 13:56:25 +0200},
-  biburl    = {https://dblp.org/rec/journals/corr/abs-2205-15678.bib},
-  bibsource = {dblp computer science bibliography, https://dblp.org}
+@InProceedings{Cai_2022_CVPR,
+    author    = {Cai, Shaofei and Li, Liang and Han, Xinzhe and Luo, Jiebo and Zha, Zheng-Jun and Huang, Qingming},
+    title     = {Automatic Relation-Aware Graph Network Proliferation},
+    booktitle = {Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)},
+    month     = {June},
+    year      = {2022},
+    pages     = {10863-10873}
 }
 ```
